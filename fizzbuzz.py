@@ -2,8 +2,8 @@
 # fizzbuzz
 
 inputNumber = input("Input number of value: ")
-i = 0
-while i <= inputNumber:
+i = 1
+while i < inputNumber:
 	if i % 3 == 0 and i % 5 == 0:
 		print "FizzBuzz"
 	elif i % 3 == 0:
